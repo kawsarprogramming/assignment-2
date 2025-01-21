@@ -25,6 +25,7 @@ body{
   margin-bottom: 1.25rem;
   padding: 1.25rem 0rem;
   justify-content: space-between;
+  align-items: center;
 }
   .navbar .brand-logo{
     align-items: center;
@@ -90,6 +91,7 @@ body{
   gap: 2rem;
   align-items: center;
  }
+ /* Main Heading Color layout styles */
  .main-banner .text-orange {
   color: #FEA301;
  }
@@ -97,7 +99,7 @@ body{
  .main-banner .text-skyblue{
   color: #01ACFD;
  }
- 
+ /* Banner content Text styles */
  .banner-container{
   margin: 7.6rem 0rem ;
  }
@@ -122,9 +124,75 @@ body{
   margin-top: 1.5rem;
  }
  
+ /* Curriculum styles */
  
- 
- 
+ .curriculum {
+  background-image: url('../assets/bg.png');
+  align-items: center;
+  /* width: auto; */
+  /* margin: 6rem 8.75rem; */
+}
+
+.curriculum h1{
+  font-size: 2.9rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 3.8rem 21rem ;
+}
+.curriculum .curriculum-container {
+  margin top: 6rem;
+  margin-bottom: 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-content: space-around;
+  gap:30px;
+  align-items: center;
+}
+/* Curriculum Card styles  */
+
+.curriculum .curriculum-container .card-1{
+  align-items: center;
+  border: none;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  justify-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.curriculum .curriculum-container img{
+  margin: 3rem 7rem;
+}
+.curriculum .curriculum-container h4{
+  font-size: 1.56rem;
+  font-weight: bold;
+  color: #202020;
+  margin-bottom: 2rem 0;
+}
+
+.curriculum .curriculum-container .card-2{
+  align-items: center;
+  border: none;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  justify-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.curriculum .curriculum-container .card-3{
+  align-items: center;
+  border: none;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom, rgba(242, 232, 255, 1),rgba(255, 255, 255, 1));
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  justify-items: center;
+  text-align: center;
+  padding: 1rem;
+}
  
  
  
@@ -134,7 +202,7 @@ body{
  
  
   /* Menu responsive/Media Query */
-  @media (max-width: 768px){
+  @media screen and (max-width: 576px) {
     .navbar{
       margin: 0rem;
       padding: .9rem 1rem;
