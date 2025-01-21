@@ -18,6 +18,30 @@ body{
     display: flex;
   }
 
+/* .card-heading{
+  font-size: 1.56rem;
+  font-weight: bold;
+  color: #202020;
+  margin-bottom: 2rem 0;
+  padding: 1rem;
+}
+
+.card-heading-text{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #808080;
+  margin-bottom: 2rem 0;
+  padding: 1rem;
+}
+
+.card-heading-link{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #64C8FF;
+  margin-bottom: 3rem 0;
+  padding: 2rem 0 ;
+} */
+/* Navbar related styles */
 .navbar {
   margin-left:9.82rem;
   margin-top: 1.25rem;
@@ -129,8 +153,6 @@ body{
  .curriculum {
   background-image: url('../assets/bg.png');
   align-items: center;
-  /* width: auto; */
-  /* margin: 6rem 8.75rem; */
 }
 
 .curriculum h1{
@@ -139,14 +161,12 @@ body{
   text-align: center;
   margin: 3.8rem 21rem ;
 }
-.curriculum .curriculum-container {
-  margin top: 6rem;
-  margin-bottom: 6rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+
+.curriculum-container{
+  margin: 6rem 4rem;
   justify-content: space-around;
-  gap:30px;
-  align-items: center;
+  /* align-items: center; */
+  gap: 1.8rem;
 }
 /* Curriculum Card styles  */
 
@@ -161,16 +181,6 @@ body{
   text-align: center;
   padding: 1rem;
 }
-.curriculum .curriculum-container img{
-  margin: 3rem 7rem;
-}
-.curriculum .curriculum-container h4{
-  font-size: 1.56rem;
-  font-weight: bold;
-  color: #202020;
-  margin-bottom: 2rem 0;
-}
-
 .curriculum .curriculum-container .card-2{
   align-items: center;
   border: none;
@@ -193,14 +203,49 @@ body{
   text-align: center;
   padding: 1rem;
 }
+
+.curriculum .curriculum-container img{
+  margin: 1.3rem 0;
+}
+.curriculum .curriculum-container h4{
+  font-size: 1.56rem;
+  font-weight: bold;
+  color: #202020;
+  margin-bottom: 1rem 0;
+  padding: 1rem 0rem;
+}
  
- 
- 
- 
- 
- 
- 
- 
+.curriculum .curriculum-container p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #808080;
+  padding: 2rem;
+} 
+.curriculum .curriculum-container .linktext-skyblue{
+color: #64C8FF;
+list-style: none;
+text-decoration: none;
+}
+
+.curriculum .curriculum-container .linktext-orange{
+  color: #F0AA00;
+  list-style: none;
+  text-decoration: none;
+}
+
+.curriculum .curriculum-container .linktext-purple{
+  color: #8700FF;
+  list-style: none;
+  text-decoration: none;
+}
+.card-heading-link{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-heading-link{
+
+}
   /* Menu responsive/Media Query */
   @media screen and (max-width: 576px) {
     .navbar{
