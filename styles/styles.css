@@ -6,36 +6,111 @@
     font-weight: 400;
     font-style: normal;
   }
-
-  /* Navbar container */
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px auto;
-    padding: 3rem 6rem;
-    /* align-items: center; */
-  }
- 
-  .navbar .logo-container {
+body{
+  background-color: rgb(235, 235, 229);
+}
+*{
+  margin: 0rem;
+  padding: 0rem;
+}
+  /* Shared Styles */
+  .display-flex {
     display: flex;
   }
 
-  .navbar .nav-container ul li{
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  margin: 1.25rem 8.82rem;
+  padding: 1.25rem 0rem;
+  justify-content: space-between;
+}
+  .navbar .brand-logo{
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #111111;
+  }
+
+  .navbar .brand-logo img{
+    width: auto;
+  }
+
+  .nav-item {
+   list-style: none;
+   margin-right: 3rem;
+  }
+
+  .nav-links {
     text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 1rem;
   }
-  /* Navbar brand/logo */
-  
 
-  /* Navbar links container */
-  
+  .nav-link{
+    list-style: none;
+    text-decoration: none;
+    gap: 2rem;
+    justify-content: space-around;
+  }
+/* menu color styles */
+  .navbar .menu ul li  .orange {
+    color: #FEA301;
+  }
+  .navbar .menu ul li  .skyblue {
+    color: #01ACFD;
+  }
+  .navbar .menu ul li  .purple {
+    color: #5D58EF;
+  }
 
-  /* Navbar links */
+  /* home button styles */
+  .btn-primary-1{
+    padding: .9rem 3.9rem;
+    border: none;
+    border-radius: 0.75rem;
+    background-color:#FEA301 ;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
  
  
-  /* Hamburger icon */
-  
-  /* Mobile view Responsive */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /* Menu responsive/Media Query */
+  @media (max-width: 768px){
+    .navbar{
+      margin: 0rem;
+      padding: .9rem 1rem;
+    }
+    .navbar .brand-logo img{
+     width: auto;
+    }
+    .navbar .brand-logo h1{
+      display: none;
+    }
+    .menu{
+      display: none;
+    }
+    .navbar .btn-primary-1{
+      display: none;
+    }
+  }
+
   
