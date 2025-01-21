@@ -150,7 +150,7 @@ body{
  
  /* Curriculum styles */
  
- .curriculum {
+ .curriculum  {
   background-image: url('../assets/bg.png');
   align-items: center;
 }
@@ -262,40 +262,82 @@ text-decoration: none;
   font-size: 1.25rem;
   color: white;
   font-weight: bold;
-  margin-bottom: 4rem 0rem;
+  margin-bottom: 1rem 0rem;
   padding: 0rem;
 }
 /* Our Story styles */
-/* .container {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 2fr;
-  padding: 20px;
-} */
 
-.our-story {
+.our-story{
   display: flex;
-  /* grid-template-columns: 2fr; */
-justify-content: space-between;
-width: 1440px;
-margin: 0 140px;
-gap: 20px;
-}
-
-.story-card-2{
-  display: grid;
   gap: 20px;
-  /* justify-content: space-between; */
-  grid-template-columns: 4fr;
+  background-image: url('../assets/bg.png');
+ 
+
+}
+main{
+  
+  align-items: center;
+  max-width: 1440px;
+  max-height: 1018px;
+  margin: 0 auto;
+  background: linear-gradient(to top, rgba(254, 161, 1, 0.171),rgba(255, 255, 255, 0.288));
+}
+.story-heading{
+  font-size: 46px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
 }
 
-@media (max-width: 768px) {
-  .card.featured {
-    grid-template-columns: 1fr;
-  }
+.story-card-1{
+  margin-left: 90px;
+  padding: 0; 
+  border: none;
+  border-radius: 16px;
+  background-color: white;
+}
+.story-card-1 img{
+  /* border-radius: 16px; */
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-bottom: 60px ;
+}
+.story-card-2{
+  margin-right: 140px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0; 
+  border: none;
+  border-radius: 16px;
+}
+.story-card-2 img{
+  border: none;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.sub-container{
+  background-color: white;
+ border-radius: 16px;
+}
+main .btn-primary-3{
+  padding: 0.625rem 2.93rem;
+  background-color: black;
+  border-radius: 0.75rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 2.5rem auto;
+  align-items: center;
+  /* justify-content: center; */
+  /* text-align: center; */
+  justify-items: center;
+  text-align: center;
+  display: flex;
 }
 
-
+/* footer design */
 
 
 
