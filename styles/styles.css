@@ -242,19 +242,62 @@ text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
 }
-/* For main sectilon icon arrow */
-.arrow{
+/* For main section icon arrow */
+.arrow-button{
   display: flex;
-  background-color: orange;
-  border: none;
-  height: 3rem;
-  width: 3rem;
-  border-radius: 45px;
-  margin-bottom: 5rem;
-  align-items: center;
-  justify-items: center;
-
+  gap: .5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
+
+.left-arrow, .right-arrow {
+  width: 3rem;
+  height: 3rem;
+  background-color: #FFA500;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 4rem 0rem;
+  padding: 0rem;
+}
+/* Our Story styles */
+/* .container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr;
+  padding: 20px;
+} */
+
+.our-story {
+  display: flex;
+  /* grid-template-columns: 2fr; */
+justify-content: space-between;
+width: 1440px;
+margin: 0 140px;
+gap: 20px;
+}
+
+.story-card-2{
+  display: grid;
+  gap: 20px;
+  /* justify-content: space-between; */
+  grid-template-columns: 4fr;
+}
+
+@media (max-width: 768px) {
+  .card.featured {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
 
   /* Menu responsive/Media Query */
   /* Navbar responsive */
@@ -275,13 +318,6 @@ text-decoration: none;
     .navbar .btn-primary-1{
       display: none;
     } 
-    
-    .main-banner, .banner-container{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    font-size: auto;
-  }
   }
 /* Hero section Responsive */
 @media screen and (max-width: 576px) {
