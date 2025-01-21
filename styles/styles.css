@@ -242,11 +242,22 @@ text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
 }
-
-.card-heading-link{
+/* For main sectilon icon arrow */
+.arrow{
+  display: flex;
+  background-color: orange;
+  border: none;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 45px;
+  margin-bottom: 5rem;
+  align-items: center;
+  justify-items: center;
 
 }
+
   /* Menu responsive/Media Query */
+  /* Navbar responsive */
   @media screen and (max-width: 576px) {
     .navbar{
       margin: 0rem;
@@ -263,7 +274,16 @@ text-decoration: none;
     }
     .navbar .btn-primary-1{
       display: none;
-    }
+    } 
+    
+    .main-banner, .banner-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: auto;
   }
-
-  
+  }
+/* Hero section Responsive */
+@media screen and (max-width: 576px) {
+ 
+}
