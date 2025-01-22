@@ -271,6 +271,7 @@ text-decoration: none;
   display: flex;
   gap: 20px;
   background-image: url('../assets/bg.png');
+  background-position: center;
  
 
 }
@@ -282,6 +283,13 @@ main{
   margin: 0 auto;
   background: linear-gradient(to top, rgba(254, 161, 1, 0.171),rgba(255, 255, 255, 0.288));
 }
+
+/* .main-story-card{
+  max-width: 1440px;
+  max-height: 1018px;
+  background-image: url('..assets/bg.png');
+  background: linear-gradient(to top, rgba(254, 161, 1, 0.171),rgba(255, 255, 255, 0.288));
+} */
 .story-heading{
   font-size: 46px;
   font-weight: bold;
@@ -297,11 +305,14 @@ main{
   border-radius: 16px;
   background-color: white;
 }
+.date{
+  margin-top: -400px;
+}
 .story-card-1 img{
   /* border-radius: 16px; */
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-  margin-bottom: 60px ;
+  /* margin-bottom: 60px ; */
 }
 .story-card-2{
   margin-right: 140px;
@@ -317,6 +328,7 @@ main{
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
+
 .sub-container{
   background-color: white;
  border-radius: 16px;
@@ -335,6 +347,7 @@ main .btn-primary-3{
   justify-items: center;
   text-align: center;
   display: flex;
+  margin-bottom: 100px;
 }
 
 /* footer design */
@@ -355,13 +368,25 @@ main .btn-primary-3{
       display: none;
     }
     .menu{
-      display: none;
+      flex-direction: column;
     }
     .navbar .btn-primary-1{
       display: none;
     } 
+    .main-banner,
+    .curriculum,
+    .curriculum-container,
+    .arrow-button,
+    .main-story-card,
+    .our-story,
+    .story-card-2
+    {
+      flex-direction: column;
+      columns: 1fr;
+    }
+.arrow-button{
+  flex-direction: row;
+}
+
   }
 /* Hero section Responsive */
-@media screen and (max-width: 576px) {
- 
-}
